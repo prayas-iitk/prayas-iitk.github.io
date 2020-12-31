@@ -907,7 +907,7 @@ a:hover {
     overflow: hidden;
 }
 .slider-area .single-slide-item:after {
-    content: "";
+    /*content: "";
     position: absolute;
     display: block;
     width: 852px;
@@ -920,7 +920,7 @@ a:hover {
     -moz-transform: skew(-12deg,0deg);
     -ms-transform: skew(-12deg,0deg);
     -o-transform: skew(-12deg,0deg);
-    transform: skew(-12deg,0deg);
+    transform: skew(-12deg,0deg);*/
 }
 .slider-area .slide-bg1 {
     background-image: url("../images/slider1.jpg");
@@ -949,17 +949,22 @@ a:hover {
 
 /*=== slider-heading ===*/
 .slider-area .slider-heading .slider__meta {
-    font-size: 20px;
-    color: #fff;
+    font-size: 50px;
+    color: #ff8000;
+    font-weight: 900;
     text-transform: uppercase;
-    border-bottom: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(134, 59, 174, 0.90);
     display: inline-block;
     margin-bottom: 12px;
 }
 .slider-area .slider-heading .slider__title {
-    font-size: 100px;
+    font-size: 40px;
     line-height: 107px;
-    color: #fff;
+    color: #ff8000;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(134, 59, 174, 0.90);
     font-weight: 900;
     margin-bottom: 47px;
 }
