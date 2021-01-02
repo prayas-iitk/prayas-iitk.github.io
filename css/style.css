@@ -949,8 +949,8 @@ a:hover {
 
 /*=== slider-heading ===*/
 .slider-area .slider-heading .slider__meta {
-    font-size: 50px;
-    color: #ff8000;
+    font-size: 25px;
+    color:#fff;/* #ff8000;*/
     font-weight: 900;
     text-transform: uppercase;
     /*border-bottom: 1px solid #fff;*/
@@ -962,8 +962,8 @@ a:hover {
 .slider-area .slider-heading .slider__title {
     font-size: 40px;
     line-height: 107px;
-    color: #ff8000;
-    -webkit-text-stroke-width: 2px;
+    color:#fff; /* #ff8000;*/
+    -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgba(134, 59, 174, 0.90);
     font-weight: 900;
     margin-bottom: 47px;
