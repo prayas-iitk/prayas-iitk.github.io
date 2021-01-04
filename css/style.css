@@ -172,17 +172,18 @@ a:hover {
 }
 /*=== section-heading ====*/
 .section-heading .section__title {
-    font-size: 200%;
-    line-height: 60px;
+    font-size: 2vw;
+    line-height: 2.5vw;
     font-weight: 700;
 }
 .section-heading .section__meta {
     color: #863bae;
-    font-size: 80%;
+    font-size: 1vw;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 8px;
     display: block;
+    line-height: 2.5vw;
 }
 /*===text__white ====*/
 .section-heading .text__white {
@@ -1145,6 +1146,7 @@ a:hover {
     padding-top: 10%;
     padding-bottom: 0;
     background-color: #f2f0ec;
+    padding-bottom: 2%;
 }
 .make-world-area .world-static-wrap {
     margin-top: 10%;
@@ -1210,8 +1212,8 @@ a:hover {
     content: '';
     bottom: 0;
     right: 0;
-    width: 360px;
-    height: 415px;
+    width: auto;
+    height: auto;
     background-color: #fff; /*#50bac3;*/
     z-index: -1;
 }
@@ -1222,19 +1224,20 @@ a:hover {
 }
 .donate-area .donate-item-img figure img {
     width: 70%;
-    height: 70%;
 }
 .donate-area .donate-item-content .section-heading .section__title {
     text-align: center;
-    font-size: 120%;
+    font-size: 1.6vw;
     margin-bottom: 5%;
     padding-right: 20%;
+    line-height: 4vw;
 }
 .donate-area .donate-item-content .section-heading .section__desc {
-    font-size: 80%;
+    font-size: 1vw;
     text-align: justify;
     color: black;
     padding-right: 20%;
+    line-height: 1.5vw;
 }
 .donate-area .donate-fun-wrap {
     margin-left: 250px;
@@ -1275,7 +1278,7 @@ a:hover {
 	flex: 1;
 }
 .flex-child:first-child {
-	margin-right: 1%;
+	margin-right: 2%;
 }
 
 /*===================================
