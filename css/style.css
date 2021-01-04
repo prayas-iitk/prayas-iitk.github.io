@@ -172,13 +172,13 @@ a:hover {
 }
 /*=== section-heading ====*/
 .section-heading .section__title {
-    font-size: 50px;
+    font-size: 200%;
     line-height: 60px;
     font-weight: 700;
 }
 .section-heading .section__meta {
     color: #863bae;
-    font-size: 14px;
+    font-size: 80%;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 8px;
@@ -253,7 +253,8 @@ a:hover {
     container
 =====================================*/
 .container {
-    max-width: 1200px;
+	height: 10%;
+    /*max-width: 1200px;*/
 }
 
 /*===================================
@@ -344,7 +345,7 @@ a:hover {
 /*=== header-top ====*/
 .header-area .header-top {
 	
-	height: 10%;
+	/*height: 10%;*/
     background-color: #fff;
 }
 .header-area .header-top .ostion-top-wrap {
@@ -355,6 +356,7 @@ a:hover {
     align-items: center;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo {
+
     display: table;
     vertical-align: middle;
 }
@@ -371,13 +373,13 @@ a:hover {
     background-color: #f1ae44;
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu {
-    top: 50%;
+    
     position: relative;
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle {
     position: absolute;
     right: 15px;
-	top: 8%;
+	
     color: #232323;
     font-size: 21px;
     cursor: pointer;
@@ -410,7 +412,7 @@ a:hover {
     align-items: center;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    padding-top: 16px;
+    padding-top: 1%;
     
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu .ostion-menu-content .navigation-top .main-navigation ul li {
@@ -840,7 +842,7 @@ a:hover {
     z-index: 1024;
     width: 100%;
     height: 10%;
-    top: 10%;
+    /*top: 10%;*/
     left: 0;
 }
 .header-area2 .header-top {
@@ -1140,12 +1142,12 @@ a:hover {
     MAKE WORLD AREA
 =====================================*/
 .make-world-area {
-    padding-top: 119px;
-    padding-bottom: 119px;
+    padding-top: 10%;
+    padding-bottom: 0;
     background-color: #f2f0ec;
 }
 .make-world-area .world-static-wrap {
-    margin-top: 51px;
+    margin-top: 10%;
 }
 .make-world-area .world-static-wrap .world-item .world-img-box img {
     width: 100%;
@@ -1198,9 +1200,10 @@ a:hover {
     DONATE AREA
 =====================================*/
 .donate-area {
-    padding-top: 120px;
+    padding-top: 5%;
     position: relative;
     z-index: 1;
+    padding-bottom: 5%;
 }
 .donate-area:after {
     position: absolute;
@@ -1209,30 +1212,37 @@ a:hover {
     right: 0;
     width: 360px;
     height: 415px;
-    background-color: #50bac3;
+    background-color: #fff; /*#50bac3;*/
     z-index: -1;
 }
 .donate-area .donate-item-img {
-    margin-right: 88px;
+    margin-left: 8%;
     position: relative;
     z-index: 2;
 }
 .donate-area .donate-item-img figure img {
-    width: 100%;
+    width: 70%;
+    height: 70%;
 }
 .donate-area .donate-item-content .section-heading .section__title {
-    margin-bottom: 42px;
+    text-align: center;
+    font-size: 120%;
+    margin-bottom: 5%;
+    padding-right: 20%;
 }
 .donate-area .donate-item-content .section-heading .section__desc {
-    line-height: 30px;
+    font-size: 80%;
+    text-align: justify;
+    color: black;
+    padding-right: 20%;
 }
 .donate-area .donate-fun-wrap {
     margin-left: 250px;
     margin-top: -236px;
-    background-color: #50bac3;
+    background-color: #fff; /*#50bac3;*/
     position: relative;
-    z-index: 1;
-    padding-top: 120px;
+    z-index: -1;
+    padding-top: 5%;
     padding-bottom: 115px;
     padding-left: 345px;
     color: #fff;
@@ -1257,6 +1267,15 @@ a:hover {
     font-weight: 800;
     margin-top: 20px;
     margin-bottom: 14px;
+}
+.flex-container {
+	display: flex;
+}
+.flex-child {
+	flex: 1;
+}
+.flex-child:first-child {
+	margin-right: 1%;
 }
 
 /*===================================
