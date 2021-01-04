@@ -1189,6 +1189,11 @@ a:hover {
 .make-world-area .world-static-wrap2 {
     padding-top: 53px;
 }
+.makeworld__section__title {
+    font-size: 3vw;
+    line-height: 2.5vw;
+    font-weight: bold;
+}
 .make-world-area .world-static-wrap2 .world-content .world__title {
     font-size: 36px;
     line-height: 45px;
