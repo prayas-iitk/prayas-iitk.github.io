@@ -177,14 +177,14 @@ a:hover {
     font-weight: bold;
 }
 .section-heading .section__meta {
-	padding-top: 0.5vw;
+	padding-top: 0.5vh;
     color: #863bae;
-    font-size: 1vw;
+    font-size: 1vh;
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 8px;
     display: block;
-    line-height: 2.5vw;
+    line-height: 2.5vh;
 }
 /*===text__white ====*/
 .section-heading .text__white {
@@ -357,8 +357,10 @@ a:hover {
     align-items: center;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo {
+	margin-left: 2vw;
+	margin-top: 2vh;
 	width: 2vw;
-	height: 2vw;
+	height: 2vh;
     display: table;
     vertical-align: middle;
 }
@@ -380,15 +382,15 @@ a:hover {
 }
 .header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle {
     position: absolute;
-    right: 15px;
-	
+    margin-right: 2vw;
+	margin-top: 2vh;
     color: #232323;
-    font-size: 21px;
+    font-size: 2vh;
     cursor: pointer;
-    width: 35px;
-    height: 35px;
+    width: 2vw;
+    height: 2vh;
     background-color: rgba(35, 35, 35, 0.1);
-    line-height: 37px;
+    line-height: 3vh;
     text-align: center;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -1144,11 +1146,11 @@ a:hover {
     MAKE WORLD AREA
 =====================================*/
 .make-world-area {
-	padding-top: 4vw;
+	padding-top: 4vh;
     padding-bottom: 0;
     background-color: #f2f0ec;
     padding-bottom: 2%;
-    height: 15vw;
+    height: 15vh;
 }
 .make-world-area .world-static-wrap {
     margin-top: 10%;
@@ -1190,8 +1192,8 @@ a:hover {
     padding-top: 53px;
 }
 .makeworld__section__title {
-    font-size: 3vw;
-    line-height: 2.5vw;
+    font-size: 3vh;
+    line-height: 2.5vh;
     font-weight: bold;
 }
 .make-world-area .world-static-wrap2 .world-content .world__title {
@@ -1209,7 +1211,7 @@ a:hover {
     DONATE AREA
 =====================================*/
 .donate-area {
-    height: 25vw;
+    height: 25vh;
     position: relative;
     z-index: 1;
 }
@@ -1224,25 +1226,25 @@ a:hover {
     z-index: -1;
 }
 .donate-area .donate-item-img {
-    padding-left: 8%;
+    padding-left: 3vw;
     position: relative;
     z-index: 2;
 }
 .donate-area .donate-item-img figure img {
     width: 30vw;
-    height: 18vw;
+    height: 18vh;
 }
 .donate-area .donate-item-content .section-heading .section__title {
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.6vh;
     margin-bottom: 5%;
-    line-height: 4vw;
+    line-height: 4vh;
 }
 .donate-area .donate-item-content .section-heading .section__desc {
-    font-size: 0.9vw;
+    font-size: 0.9vh;
     text-align: justify;
     color: black;
-    line-height: 1.4vw;
+    line-height: 1.4vh;
 }
 .donate-area .donate-fun-wrap {
     margin-left: 250px;
@@ -1281,8 +1283,8 @@ a:hover {
 }
 .flex-child {
 	flex: 1;
-	padding-top: 3.5vw;
-	padding-bottom: 3.5vw;
+	padding-top: 3.5vh;
+	padding-bottom: 3.5vh;
 	padding-left: 2vw;
 	padding-right: 5vw;
 }
