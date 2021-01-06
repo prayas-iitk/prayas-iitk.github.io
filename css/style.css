@@ -177,14 +177,11 @@ a:hover {
     font-weight: bold;
 }
 .section-heading .section__meta {
-	padding-top: 0.5vw;
     color: #863bae;
     font-size: 1vw;
     text-transform: uppercase;
     font-weight: 500;
-    margin-top: 8px;
     display: block;
-    line-height: 2.5vw;
 }
 /*===text__white ====*/
 .section-heading .text__white {
@@ -192,8 +189,6 @@ a:hover {
 }
 /*=== section-icon ====*/
 .section-icon {
-    margin-bottom: 9px;
-    line-height: 1px;
 }
 /*=== section-divider ====*/
 .section-divider {
@@ -1190,9 +1185,16 @@ a:hover {
     padding-top: 53px;
 }
 .makeworld__section__title {
-    font-size: 3vw;
-    line-height: 2.5vw;
+	padding-top: 0.05vw;
+	padding-bottom: 0.05vw;
+    font-size: 2.5vw;
     font-weight: bold;
+}
+.makeworld__section__meta {
+	color: #863bae;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
 }
 .make-world-area .world-static-wrap2 .world-content .world__title {
     font-size: 36px;
@@ -1898,7 +1900,7 @@ a:hover {
     MIXER AREA 3
 =====================================*/
 .mixer-area3 {
-	height: 35vw;
+	height: 30vw;
     background-image: url("../images/mixer-bg2.jpg");
 }
 .mixer-area3:after {
@@ -1930,21 +1932,21 @@ a:hover {
     background-color: #f1ae44;
 }
 .mixer-area4 .mixer-video-content {
-	padding-top: 3vw;
-	padding-bottom: 3vw;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
     position: relative;
 }
 .section-heading .mixer__section__title {
-    font-size: 3vw;
-    line-height: 4vw;
+	padding-top: 1vw;
+    font-size: 2vw;
+    line-height: 2vw;
 }
 .mixer-area4 .mixer-frame-size {
 	position: relative;
     width: 37.5vw;
-    height: 23vw;
-    top: 3vw;
-    bottom: 3vw;
-	left: 3vw;
+    height: 22vw;
+    top: 2vw;
+    bottom: 2vw;
 }
 .mixer-flex-container {
 	display: flex;
@@ -1952,8 +1954,8 @@ a:hover {
 .mixer-flex-child {
 	flex: 1;
 	height: 30vw;
-	padding-top: 3vw;
-    padding-bottom: 3vw;
+	padding-top: 2vw;
+    padding-bottom: 2vw;
 	padding-left: 5vw;
 	padding-right: 2vw;
 }
@@ -2123,12 +2125,32 @@ a:hover {
     line-height: 30px;
 }
 
+.quote-area {
+	padding-top: 5vw;
+    padding-bottom: 4vw;
+    background-color: #f2f0ec;
+    height: 15vw;
+}
 /*===================================
     CAUSES AREA
 =====================================*/
 .causes-area {
-    padding-top: 6%;
-    padding-bottom: 5%;
+	padding-top: 5vw;
+    padding-bottom: 4vw;
+    background-color: #f2f0ec;
+    height: 50vw;
+}
+.section-heading .causes__section__meta {
+	padding-top: 2vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-bottom: 4vw;
+    color: #863bae;
+    font: italic;
+    font-size: 1.2vw;
+    font-weight: 500;
+    display: block;
+    line-height: 2vw;
 }
 .causes-area .blog-content-wrap {
     margin-top: 2vw;
@@ -2273,18 +2295,30 @@ a:hover {
     color: #e36955;
 }
 
+.causes-blog-img {
+	padding-left: 2vw;
+	width: 25vw;
+	height: 18vw;
+}
 .causes-flex-container {
 	display: flex;
 }
 .causes-flex-child {
 	flex: 1;
-	padding-top: 2vw;
+	padding-top: 5vw;
 	padding-bottom: 2vw;
-	padding-left: 8vw;
-	padding-right: 3vw;
+	padding-left: 3vw;
+	padding-right: 2vw;
 }
 .causes-flex-child:first-child {
 	
+}
+.causesblog-inner-content {
+	padding-top: 1vw;
+	font-size: 0.9vw;
+    text-align: justify;
+    color: black;
+    line-height: 1.4vw;
 }
 /*=============================
    CAUSES AREA 2
@@ -2720,7 +2754,10 @@ a:hover {
     UPCOMING EVENT AREA
 =============================*/
 .upcoming-event-area {
-    padding-bottom: 0;
+    padding-top: 5vw;
+    padding-bottom: 4vw;
+    background-color: #f2f0ec;
+    height: 15vw;
 }
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag,
 .upcoming-event-area .blog-content-wrap .blog-content .blog-item .blog-img .blog__tag:after {
