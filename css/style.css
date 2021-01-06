@@ -1186,7 +1186,7 @@ a:hover {
 }
 .makeworld__section__title {
 	padding-top: 0.1vw;
-	padding-bottom: 0.1vw;
+	padding-bottom: 0.15vw;
     font-size: 2.5vw;
     font-weight: bold;
 }
@@ -2138,7 +2138,7 @@ a:hover {
 	padding-top: 5vw;
     padding-bottom: 4vw;
     background-color: #f2f0ec;
-    height: 50vw;
+    height: 55vw;
 }
 .section-heading .causes__section__meta {
 	padding-top: 2vw;
@@ -2298,7 +2298,7 @@ a:hover {
 .causes-blog-img {
 	padding-left: 2vw;
 	width: 25vw;
-	height: 18vw;
+	height: 15vw;
 }
 .causes-flex-container {
 	display: flex;
