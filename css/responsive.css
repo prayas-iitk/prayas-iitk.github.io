@@ -580,114 +580,133 @@
 @media ( min-width :320px) and (max-width:480px) {
 	.ostion-logo {
 		padding-top: 5px;
-	padding-left: 5px;
-	width: 5px;
-	height: 5px;
+		padding-left: 5px;
+		width: 5px;
+		height: 5px;
 	}
-.donate-area {
-	height: 600px;
-    position: relative;
-    z-index: 1;
-    position: relative;
-    z-index: 1;
-}
-.donate-flex-container {
-display: inline-block;
-}
-
-.donate-flex-child {
-	padding-top: 20px;
-padding-left: 5px;
-padding-right: 5px;
-}
-
-
-.donate-area .donate-item-img {
-    width: 310px;
-    height: 200px;
-    z-index: 2;
-    position: absolute;
-}
-
-.donate__section__title {
-    text-align: center;
-    font-size: 28px;
-    line-height: 32px;
-    padding-bottom: 15px;
-}
-.donate__section__desc {
-       font-size: 14px;
-    text-align: justify;
-    color: black;
-    line-height: 16px;
-}
-
+	.donate-area {
+		height: 600px;
+		position: relative;
+		z-index: 1;
+		position: relative;
+		z-index: 1;
+	}
+	.donate-flex-container {
+		display: inline-block;
+	}
+	.donate-flex-child {
+		padding-top: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+	.donate-area .donate-item-img {
+		width: 310px;
+		height: 200px;
+		z-index: 2;
+		position: absolute;
+	}
+	.donate__section__title {
+		text-align: center;
+		font-size: 28px;
+		line-height: 32px;
+		padding-bottom: 15px;
+	}
+	.donate__section__desc {
+		font-size: 14px;
+		text-align: justify;
+		color: black;
+		line-height: 16px;
+	}
 	.make-world-area {
 		padding-top: 50px;
-    padding-bottom: 40px;
-    height: 200px;
-    background-color: #f2f0ec;
+		padding-bottom: 40px;
+		height: 200px;
+		background-color: #f2f0ec;
 	}
 	.makeworld__section__title {
-	padding-top: 10px;
+		padding-top: 10px;
 		font-size: 32px;
-    line-height: 42px;
-    font-weight: 700;
+		line-height: 42px;
+		font-weight: 700;
 	}
 	.makeworld__section__meta {
-	color: #863bae;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: 500;
-    margin-top: 10px;
-    display: block;
+		color: #863bae;
+		font-size: 14px;
+		text-transform: uppercase;
+		font-weight: 500;
+		margin-top: 10px;
+		display: block;
 	}
 	.mixer-area4 .section-heading .mixer__section__desc {
-	font-size: 8px;
-    text-align: justify;
-    color: #fff;
-    line-height: 10px;
-    padding-bottom: 10px;
-}
-.section-heading .mixer__section__title {
-	text-align: center;
-    font-size: 12px;
-    margin-bottom: 10px;
-    line-height: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.mixer-area4 .mixer-frame-size {
-	position: relative;
-	padding-bottom: 10px;
-    width: 250px;
-    height: 150px;
-}
-.mixer-flex-container {
-	display: inline-block;
-}
-.mixer-flex-child {
-	
-	padding-top: 20px;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-.quote-area {
-	padding-top: 30px;
-    padding-bottom: 20px;
-    background-color: #f2f0ec;
-    height: 200px;
-}
-.section-heading .causes__section__meta {
-	padding-top: 20px;
-	padding-left: 15px;
-	padding-right: 15px;
-	padding-bottom: 20px;
-    color: #863bae;
-    font: italic;
-    font-size: 10px;
-    font-weight: 500;
-    display: block;
-    line-height: 12px;
-}
+		font-size: 8px;
+		text-align: justify;
+		color: #fff;
+		line-height: 10px;
+		padding-bottom: 10px;
+	}
+	.section-heading .mixer__section__title {
+		text-align: center;
+		font-size: 12px;
+		margin-bottom: 10px;
+		line-height: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.mixer-area4 .mixer-frame-size {
+		position: relative;
+		padding-bottom: 10px;
+		width: 250px;
+		height: 150px;
+	}
+	.mixer-flex-container {
+		display: inline-block;
+	}
+	.mixer-flex-child {
+		padding-top: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.quote-area {
+		padding-top: 30px;
+		padding-bottom: 20px;
+		background-color: #f2f0ec;
+		height: 200px;
+	}
+	.section-heading .causes__section__meta {
+		padding-top: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 20px;
+		color: #863bae;
+		font: italic;
+		font-size: 10px;
+		font-weight: 500;
+		display: block;
+		line-height: 12px;
+	}
+	.causes-area {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: #f2f0ec;
+		height: 1400px;
+	}
+	.causes-blog-img {
+		width: 310px;
+		height: 200px;
+	}
+	.causes-flex-container {
+		display: inline-block;
+	}
+	.causes-flex-child {
+		padding-top: 20px;
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.causesblog-inner-content {
+		padding-top: 5px;
+		font-size: 14px;
+		text-align: justify;
+		color: black;
+		line-height: 16px;
+	}
 }
