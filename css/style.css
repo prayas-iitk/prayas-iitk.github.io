@@ -2037,10 +2037,10 @@ a:hover {
 }
 
 .quote-area {
-	padding-top: 5vw;
-    padding-bottom: 4vw;
+	padding-top: 80px;
+    padding-bottom: 60px;
     background-color: #f2f0ec;
-    height: 15vw;
+    height: 200px;
 }
 /*===================================
     CAUSES AREA
@@ -2052,16 +2052,16 @@ a:hover {
     height: 55vw;
 }
 .section-heading .causes__section__meta {
-	padding-top: 2vw;
-	padding-left: 5vw;
-	padding-right: 5vw;
-	padding-bottom: 4vw;
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-bottom: 20px;
     color: #863bae;
     font: italic;
-    font-size: 1.2vw;
+    font-size: 16px;
     font-weight: 500;
     display: block;
-    line-height: 2vw;
+    line-height: 28px;
 }
 .causes-area .blog-content-wrap {
     margin-top: 2vw;

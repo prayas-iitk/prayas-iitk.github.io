@@ -672,4 +672,22 @@ padding-right: 5px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
+.quote-area {
+	padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #f2f0ec;
+    height: 200px;
+}
+.section-heading .causes__section__meta {
+	padding-top: 20px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 20px;
+    color: #863bae;
+    font: italic;
+    font-size: 10px;
+    font-weight: 500;
+    display: block;
+    line-height: 12px;
+}
 }
