@@ -594,11 +594,6 @@
 	.donate-flex-container {
 		display: inline-block;
 	}
-	.donate-flex-child {
-		padding-top: 25px;
-		padding-left: 5px;
-		padding-right: 5px;
-	}
 	.donate-area .donate-item-img {
 		width: 100%;
 		height: 200px;
@@ -609,6 +604,7 @@
 		text-align: center;
 		font-size: 28px;
 		line-height: 32px;
+		padding-top: 15px;
 		padding-bottom: 15px;
 	}
 	.donate__section__desc {
@@ -639,20 +635,21 @@
 	}
 	.mixer-area3 {
 		height: 800px;
-    	background-image: url("../images/mixer-bg2.jpg");
+		background-image: url("../images/mixer-bg2.jpg");
 	}
 	.mixer-area4 .section-heading .mixer__section__desc {
 		font-size: 14px;
 		text-align: justify;
 		color: #fff;
 		line-height: 16px;
-		padding-bottom: 10px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 	.section-heading .mixer__section__title {
 		text-align: center;
 		font-size: 28px;
 		line-height: 32px;
-		padding-top: 10px;
+		padding-top: 15px;
 		padding-bottom: 15px;
 	}
 	.mixer-area4 .mixer-frame-size {
@@ -663,11 +660,6 @@
 	}
 	.mixer-flex-container {
 		display: inline-block;
-	}
-	.mixer-flex-child {
-		padding-top: 20px;
-		padding-left: 5px;
-		padding-right: 5px;
 	}
 	.quote-area {
 		padding-top: 30px;
@@ -682,10 +674,10 @@
 		padding-bottom: 20px;
 		color: #863bae;
 		font: italic;
-		font-size: 10px;
+		font-size: 14px;
 		font-weight: 500;
 		display: block;
-		line-height: 12px;
+		line-height: 16px;
 	}
 	.causes-area {
 		padding-top: 50px;
@@ -694,22 +686,17 @@
 		height: 1400px;
 	}
 	.causes-blog-img {
-		width: 310px;
+		padding-top: 20px;
+		width: 100%;
 		height: 200px;
 	}
 	.causes-flex-container {
 		display: inline-block;
 	}
-	.causes-flex-child {
-		padding-top: 20px;
-		padding-right: 5px;
-		padding-left: 5px;
-	}
 	.causesblog-inner-content {
-		padding-top: 5px;
+		padding-top: 15px;
 		font-size: 14px;
 		text-align: justify;
 		color: black;
 		line-height: 16px;
-	}
-}
+	}}
