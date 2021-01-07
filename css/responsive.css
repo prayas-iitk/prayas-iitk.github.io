@@ -625,21 +625,21 @@ padding-right: 15px;
 	.make-world-area {
 		padding-top: 50px;
     padding-bottom: 40px;
-    height: 140px;
+    height: 200px;
     background-color: #f2f0ec;
 	}
 	.makeworld__section__title {
-	padding-top: 5px;
-		font-size: 23px;
-    line-height: 30px;
+	padding-top: 10px;
+		font-size: 32px;
+    line-height: 42px;
     font-weight: 700;
 	}
 	.makeworld__section__meta {
 	color: #863bae;
-    font-size: 10px;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 500;
-    margin-top: 4px;
+    margin-top: 10px;
     display: block;
 	}
 	.mixer-area4 .section-heading .mixer__section__desc {
