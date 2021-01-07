@@ -1810,7 +1810,7 @@ a:hover {
     MIXER AREA 3
 =====================================*/
 .mixer-area3 {
-	height: 30vw;
+	height: 400px;
     background-image: url("../images/mixer-bg2.jpg");
 }
 .mixer-area3:after {
@@ -1823,15 +1823,17 @@ a:hover {
 =====================================*/
 .mixer-area4 .section-heading {
     position: relative;
-    padding-top: 1.5vw;
 }
 .mixer-area4 .section-heading .section__meta {
     color: #f1ae44;
 }
 .mixer-area4 .section-heading .mixer__section__desc {
-	font-size: 1vw;
-    line-height: 1.7vw;
-    padding-left: 3vw;
+	font-size: 15px;
+    text-align: justify;
+    color: #fff;
+    line-height: 20px;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 .mixer-area4 .section-heading .theme-btn,
 .mixer-area4 .section-heading .theme-btn:after {
@@ -1842,32 +1844,31 @@ a:hover {
     background-color: #f1ae44;
 }
 .mixer-area4 .mixer-video-content {
-	padding-top: 1.5vw;
-	padding-bottom: 1.5vw;
     position: relative;
 }
 .section-heading .mixer__section__title {
-	padding-top: 1vw;
-    font-size: 2vw;
-    line-height: 2vw;
+	text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    padding-top: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .mixer-area4 .mixer-frame-size {
 	position: relative;
-    width: 37.5vw;
-    height: 22vw;
-    top: 2vw;
-    bottom: 2vw;
+    width: 500px;
+    height: 300px;
 }
 .mixer-flex-container {
 	display: flex;
 }
 .mixer-flex-child {
 	flex: 1;
-	height: 30vw;
-	padding-top: 2vw;
-    padding-bottom: 2vw;
-	padding-left: 5vw;
-	padding-right: 2vw;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 20px;
 }
 .mixer-flex-child:first-child {
 
