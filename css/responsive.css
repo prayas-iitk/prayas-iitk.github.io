@@ -585,7 +585,7 @@
 	height: 5px;
 	}
 .donate-area {
-	height: 400px;
+	height: 600px;
     position: relative;
     z-index: 1;
     position: relative;
@@ -596,30 +596,30 @@ display: inline-block;
 }
 
 .donate-flex-child {
-padding-left: 15px;
-padding-right: 15px;
+	padding-top: 20px;
+padding-left: 5px;
+padding-right: 5px;
 }
 
 
 .donate-area .donate-item-img {
-    width: 250px;
-    height: 150px;
+    width: 310px;
+    height: 200px;
     z-index: 2;
     position: absolute;
 }
 
 .donate__section__title {
     text-align: center;
-    font-size: 12px;
-    margin-bottom: 10px;
-    line-height: 15px;
-    padding-top: 20px;
+    font-size: 28px;
+    line-height: 32px;
+    padding-bottom: 15px;
 }
 .donate__section__desc {
-       font-size: 8px;
+       font-size: 14px;
     text-align: justify;
     color: black;
-    line-height: 10px;
+    line-height: 16px;
 }
 
 	.make-world-area {
