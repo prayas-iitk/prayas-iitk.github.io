@@ -584,44 +584,41 @@
 		width: 5px;
 		height: 5px;
 	}
-	
+	.makeworld__section__title {
+	font-size: 45px;
+    line-height: 50px;
+    font-weight: 700;
+}
 	.make-world-area {
 		padding-top: 50px;
 		padding-bottom: 40px;
 		height: 200px;
 		background-color: #f2f0ec;
 	}
-	.makeworld__section__title {
-		padding-top: 10px;
-		font-size: 32px;
-		line-height: 42px;
-		font-weight: 700;
-	}
 	.makeworld__section__meta {
 		color: #863bae;
-		font-size: 14px;
+		font-size: 18px;
 		text-transform: uppercase;
 		font-weight: 500;
 		margin-top: 10px;
 		display: block;
 	}
 	.quote-area {
-		padding-top: 30px;
+		padding-top: 50px;
 		padding-bottom: 20px;
 		background-color: #f2f0ec;
-		height: 200px;
 	}
 	.section-heading .causes__section__meta {
-		padding-top: 20px;
+		padding-top: 15px;
 		padding-left: 15px;
 		padding-right: 15px;
 		padding-bottom: 20px;
 		color: #863bae;
 		font: italic;
-		font-size: 14px;
+		font-size: 18px;
 		font-weight: 500;
 		display: block;
-		line-height: 16px;
+		line-height: 20px;
 	}
 	.causes-area {
 		padding-top: 50px;
