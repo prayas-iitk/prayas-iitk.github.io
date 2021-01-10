@@ -584,35 +584,7 @@
 		width: 5px;
 		height: 5px;
 	}
-	.donate-area {
-		height: 800px;
-		position: relative;
-		z-index: 1;
-		position: relative;
-		z-index: 1;
-	}
-	.donate-flex-container {
-		display: inline-block;
-	}
-	.donate-area .donate-item-img {
-		width: 100%;
-		height: 200px;
-		z-index: 2;
-		position: absolute;
-	}
-	.donate__section__title {
-		text-align: center;
-		font-size: 28px;
-		line-height: 32px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-	}
-	.donate__section__desc {
-		font-size: 14px;
-		text-align: justify;
-		color: black;
-		line-height: 16px;
-	}
+	
 	.make-world-area {
 		padding-top: 50px;
 		padding-bottom: 40px;
