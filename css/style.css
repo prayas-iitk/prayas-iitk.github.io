@@ -1163,33 +1163,35 @@ a:hover {
     DONATE AREA
 =====================================*/
 .donate-area {
-    height: 400px;
+	padding-top: 30px;
     position: relative;
     z-index: 1;
+     margin-bottom: 30px;
 }
 
 .donate-area .donate-item-img {
-    padding-left: 60px;
-    width: 500px;
-    height: 300px;
+	
+    width: 100%;
     position: relative;
     z-index: 2;
+   
 }
 
 .donate-area .donate__section__title {
     text-align: center;
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 20px;
-    line-height: 30px;
-    padding-top: 45px;
-    padding-right: 60px;
+    line-height: 48px;
+    padding-top: 30px;
 }
 .donate-area .donate__section__desc {
-    font-size: 15px;
+    font-size: 18px;
     text-align: justify;
-    color: black;
+    color: #424242;
     line-height: 20px;
-    padding-right: 60px;
+}
+.donate__content {
+	padding-left: 30px;
 }
 
 .donate-flex-container {
