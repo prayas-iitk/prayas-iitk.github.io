@@ -1182,7 +1182,6 @@ a:hover {
     font-size: 40px;
     margin-bottom: 20px;
     line-height: 48px;
-    padding-top: 30px;
 }
 .donate-area .donate__section__desc {
     font-size: 18px;
@@ -1191,6 +1190,7 @@ a:hover {
     line-height: 20px;
 }
 .donate__content {
+	padding-top: 30px;
 	padding-left: 30px;
 }
 
