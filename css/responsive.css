@@ -605,34 +605,6 @@
 		margin-top: 10px;
 		display: block;
 	}
-	.mixer-area3 {
-		height: 800px;
-		background-image: url("../images/mixer-bg2.jpg");
-	}
-	.mixer-area4 .section-heading .mixer__section__desc {
-		font-size: 14px;
-		text-align: justify;
-		color: #fff;
-		line-height: 16px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-	}
-	.section-heading .mixer__section__title {
-		text-align: center;
-		font-size: 28px;
-		line-height: 32px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-	}
-	.mixer-area4 .mixer-frame-size {
-		position: relative;
-		padding-bottom: 10px;
-		width: 100%;
-		height: 200px;
-	}
-	.mixer-flex-container {
-		display: inline-block;
-	}
 	.quote-area {
 		padding-top: 30px;
 		padding-bottom: 20px;
