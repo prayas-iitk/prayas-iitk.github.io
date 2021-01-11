@@ -352,9 +352,10 @@ a:hover {
     align-items: center;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo {
+	padding-top: 2px;
 	padding-left: 5px;
-	width: 35px;
-	height: 35px;
+	width: 40px;
+	height: 40px;
 }
 .header-area .header-top .ostion-top-wrap .ostion-logo a {
     display: table-cell;
@@ -375,7 +376,7 @@ a:hover {
 .header-area .header-top .ostion-top-wrap .ostion-menu .mobile-menu-toggle {
     position: absolute;
     right: 15px;
-	
+	top: 0;
     color: #232323;
     font-size: 21px;
     cursor: pointer;
@@ -1162,17 +1163,13 @@ a:hover {
 	padding-top: 30px;
     position: relative;
     z-index: 1;
-     margin-bottom: 30px;
+    margin-bottom: 30px;
 }
-
 .donate-area .donate-item-img {
-	
     width: 100%;
     position: relative;
     z-index: 2;
-   
 }
-
 .donate-area .donate__section__title {
     text-align: center;
     font-size: 40px;
