@@ -1199,7 +1199,7 @@ a:hover {
     padding-top: 110px;
     padding-bottom: 115px;
 }
-.breadcrumb-area .breadcrumb-content .breadcrumb__title {
+.breadcrumb-area .breadcrumb__title {
     font-size: 60px;
     line-height: 60px;
     letter-spacing: 0;
@@ -1207,7 +1207,7 @@ a:hover {
     font-weight: 800;
     text-transform: capitalize;
 }
-.breadcrumb-area .breadcrumb-content .breadcrumb__list {
+.breadcrumb__list {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1215,7 +1215,7 @@ a:hover {
     padding: 0 30px 0 35px;
     line-height: 49px;
 }
-.breadcrumb-area .breadcrumb-content .breadcrumb__list:after {
+.breadcrumb__list:after {
     content: "";
     position: absolute;
     display: block;
@@ -1239,7 +1239,7 @@ a:hover {
     transition: 0.3s ease-in;
 }
 
-.breadcrumb-area .breadcrumb-content .breadcrumb__list li {
+.breadcrumb__list li {
     font-size: 12px;
     letter-spacing: 1px;
     color: #fff;
@@ -1249,10 +1249,10 @@ a:hover {
     text-transform: uppercase;
     display: inline-block;
 }
-.breadcrumb-area .breadcrumb-content .breadcrumb__list li:last-child {
+.breadcrumb__list li:last-child {
     padding-right: 0;
 }
-.breadcrumb-area .breadcrumb-content .breadcrumb__list li.active__list-item:after {
+.breadcrumb__list li.active__list-item:after {
     position: absolute;
     content: '.';
     top: 0;
@@ -1260,7 +1260,7 @@ a:hover {
     padding: 0 6px;
     font-size: 15px;
 }
-.breadcrumb-area .breadcrumb-content .breadcrumb__list li a {
+.breadcrumb__list li a {
     color: #fff;
     -webkit-transition: 0.3s ease;
     -moz-transition: 0.3s ease;
@@ -1268,7 +1268,7 @@ a:hover {
     -o-transition: 0.3s ease;
     transition: 0.3s ease;
 }
-.breadcrumb-area .breadcrumb-content .breadcrumb__list li a:hover {
+.breadcrumb__list li a:hover {
     color: #f1ae44;
 }
 
@@ -1459,11 +1459,7 @@ a:hover {
 =====================================*/
 .service-area {
     position: relative;
-    width: 100%;
-    height: 100%;
     z-index: 1;
-    padding-top: 90px;
-    padding-bottom: 120px;
 }
 /*=== heart-icon ===*/
 .service-area .heart-icon {
@@ -1471,7 +1467,7 @@ a:hover {
     animation: heartbeat 0.7s cubic-bezier(0.245, 0.325, 0.51, 1.305) infinite alternate;
 }
 .service-area .heart-icon-1 {
-    top: 0;
+    padding-top: 5%;
     left: 16%;
 }
 .service-area .heart-icon-2 {
@@ -2003,16 +1999,14 @@ a:hover {
 
 .quote-area {
 	padding-top: 80px;
-    padding-bottom: 60px;
     background-color: #f2f0ec;
-    height: 200px;
 }
 /*===================================
     CAUSES AREA
 =====================================*/
 .causes-area {
-	padding-top: 50px;
-    padding-bottom: 50px;
+	padding-top: 60px;
+    padding-bottom: 60px;
     background-color: #f2f0ec;
 }
 .section-heading .causes__section__meta {
@@ -2944,8 +2938,8 @@ a:hover {
 =====================================*/
 .clientlogo-area2 {
     background-color: #f2f0ec;
-    padding-top: 148px;
-    padding-bottom: 141px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 /*===================================
@@ -3316,12 +3310,11 @@ a:hover {
 }
 .gallery-area2 .gallery-item img {
     width: 100%;
-     height: 100%;
+    height: 100%;
 }
-.gallery-area2 .gallery-video {
-	width:100%;
-	height:100%;
-	margin-bottom: 30px;
+.gallery-area2 .gallery-video iframe{
+	width: 100%;
+	height: 200%;
 }
 .gallery-area2 .gallery-item:after {
     left: -76px;

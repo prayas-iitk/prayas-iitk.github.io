@@ -2,7 +2,7 @@
 var map;
 map = new GMaps({
     el: '#map',
-    center: new google.maps.LatLng(40.728157, -74.077644),
+    center: new google.maps.LatLng(26.505303071088562, 80.22990749149726),
     zoom: 12,
     // Google map background color style arrow on the below,
     // if you want to change the google map background style
@@ -185,8 +185,8 @@ map = new GMaps({
     ]
 });
 map.addMarker({
-    lat: 40.7173503,
-    lng: -74.0557994,
+    lat: 26.505303071088562,
+    lng: 80.22990749149726,
     icon: "images/map-marker.png",
     animation: google.maps.Animation.BOUNCE
 });
